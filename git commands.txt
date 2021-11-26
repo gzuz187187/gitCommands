@@ -1,0 +1,33 @@
+git init					// initialize local git repository
+
+git add <filenames>			// add files to index
+
+git status					// check status of working tree
+
+git commit -m <message>		// commit changes in index
+ 
+git push					// push to remote repository
+
+git pull					// pull latest from remote repository
+
+git clone					// clone repository into a new directory
+
+git config --global user.name "User Name"
+
+git config --global user.email "email@gmail.com"
+
+git branch <branchname>		// creates branch <branchname>
+
+git checkout <branchname>	// switches to branch <branchname>
+
+git merge <branchname>		// first switch onto the branch that should get merged to, <branchname> is the branch that should get merged into the active branch
+
+git remote					// lists all the available remote repositories
+
+git remote add origin <link to repository>		// adds remote repository to project
+
+git push -u origin <branchname>	// push changes to remote branch
+
+git rm -r --cached <foldername>	// remove folder from git but NOT locally
+
+git rm -r --cached <filename>	// remove file from git but NOT locally
